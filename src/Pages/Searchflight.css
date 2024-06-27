@@ -1,0 +1,120 @@
+.search-results {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .ticket {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .ticket .airline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ticket .airline img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .ticket .flight-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .ticket .flight-details .route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are aligned vertically in the center */
+  }
+  
+  .ticket .flight-details .route div {
+    text-align: center;
+    flex: 1; /* Distribute the divs evenly */
+  }
+  
+  .ticket .flight-details .route div p {
+    margin: 5px 0; /* Add some margin to paragraphs to ensure proper spacing */
+  }
+  
+  .ticket .flight-details .price {
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ticket .price-details {
+    text-align: right;
+    margin-left: 20px;
+  }
+  
+  .ticket .price-details button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ticket .price-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .flight-icon {
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    margin-top: 10px; /* Increase the space between SVG and container top */
+  }
+  .bottom-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .additional-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .additional-details-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .additional-details {
+    margin-bottom: 10px; /* Increase spacing between details */
+  }
+  
+  .book-now-button {
+    background-color: red; /* Example button styling */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    align-self: flex-center;
+    border-radius: 5%; /* Align button to the right */
+  }
+  
+  .book-now-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+  }
+  
+  

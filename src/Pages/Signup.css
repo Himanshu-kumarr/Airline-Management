@@ -1,0 +1,66 @@
+/* Main container for the signup form */
+.signup-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjusting for header and footer height */
+    background-color: #f0f0f0;
+    padding-top: 60px; /* Height of header */
+    padding-bottom: 60px; /* Height of footer */
+  }
+  
+  /* Form styling */
+  .signup-form {
+    background-color: #cdc8c8; /* White background for the form body */
+    padding: 1.5rem; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; /* Reduced maximum width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Form group spacing */
+  .form-group {
+    margin-bottom: 1rem; /* Reduced space between form fields */
+  }
+  
+  /* Invalid feedback styling */
+  .invalid-feedback {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  /* Form header */
+  .signup-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem; /* Reduced margin-bottom */
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+  
+  /* Form buttons */
+  .signup-form button {
+    width: 100%;
+    padding: 0.5rem; /* Reduced padding */
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  .signup-form p {
+    text-align: center;
+    margin-top: 1rem; /* Reduced margin-top */
+  }
+  
+  /* Adjusting link appearance */
+  .signup-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-form a:hover {
+    text-decoration: underline;
+  }
+  

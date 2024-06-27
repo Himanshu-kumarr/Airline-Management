@@ -1,0 +1,44 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px); /* Adjust the height to leave space for the header */
+    margin-left: 80px;
+  }
+  
+  .bg-light {
+    background-color: lightgrey !important;
+  }
+  /*css for classes*/
+  .class-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2a2a2a; Dark background */
+    /* padding: 10px; */
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .class-selection button {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #e5e5e5; /* Light background */
+    /* color: ; */
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+  }
+  
+  .class-selection button.active {
+    background-color: #007bff; /* Blue background for active state */
+    color: white;
+  }
+  
+  .class-selection button:not(.active):hover {
+    background-color: #d3d3d3; /* Slightly darker background on hover */
+  }
+  
+  

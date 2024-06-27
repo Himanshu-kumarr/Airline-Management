@@ -1,0 +1,20 @@
+.footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: #35109b; /* Adjust as needed */
+    text-align: center;
+    padding: 10px 0; /* Adjust as needed */
+    color: white; /* Change text color to white */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 60px;
+}
+
+.footer a {
+    color: white; /* Ensure links are also white */
+}
+.text-white{
+    margin-right: 10px;
+    
+}

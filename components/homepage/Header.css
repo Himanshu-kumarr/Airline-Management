@@ -1,0 +1,44 @@
+.custom-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.himanshu {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.himanshu:hover {
+  background-color: #06488e;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #06488e;
+}
+
+.user-profile-btn {
+  padding: 12px 20px;
+  margin-right: 10px;
+}
+
+.logout-btn {
+  padding: 12px 20px;
+  margin-right: 10px;
+  background-color: #dc3545; /* Red color for logout button */
+  border-color: #dc3545;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+
